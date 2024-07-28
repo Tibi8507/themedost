@@ -58,9 +58,9 @@ if ($content) {
                 </div>
             <?php } ?>
             <div>
-                <b><?php echo __("I'm an agent"); ?></b> —
-                <a href="<?php echo ROOT_PATH; ?>scp/"><?php echo __('Sign in here'); ?></a>
-            </div>
+    <b><?php echo __("Information"); ?></b> —
+    <?php echo __('All successful and unsuccessful logins and login attempts are also recorded. (Also the IP address.)'); ?>
+    </div>
         </div>
     </div>
 </form>
